@@ -1,4 +1,4 @@
-package day01_variables;
+package day01_02_Variables;
 
 public class C04_Assign {
     public static void main(String[] args) {
