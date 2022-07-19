@@ -1,4 +1,4 @@
-package dsay07_ifElse;
+package day07_ifElse;
 
 import java.util.Scanner;
 
