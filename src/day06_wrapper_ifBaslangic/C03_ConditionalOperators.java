@@ -1,4 +1,4 @@
-package day06_wrapper;
+package day06_wrapper_ifBaslangic;
 
 public class C03_ConditionalOperators {
     public static void main(String[] args) {

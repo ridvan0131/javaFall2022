@@ -1,4 +1,4 @@
-package day06_wrapper;
+package day06_wrapper_ifBaslangic;
 
 import java.util.Scanner;
 

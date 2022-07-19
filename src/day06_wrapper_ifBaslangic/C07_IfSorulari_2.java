@@ -1,6 +1,5 @@
-package day06_wrapper;
+package day06_wrapper_ifBaslangic;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class C07_IfSorulari_2 {

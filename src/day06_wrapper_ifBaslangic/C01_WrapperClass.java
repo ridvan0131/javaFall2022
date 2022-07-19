@@ -1,6 +1,4 @@
-package day06_wrapper;
-
-import jdk.jshell.spi.ExecutionControl;
+package day06_wrapper_ifBaslangic;
 
 public class C01_WrapperClass {
     public static void main(String[] args) {
