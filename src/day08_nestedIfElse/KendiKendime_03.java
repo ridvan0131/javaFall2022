@@ -1,4 +1,4 @@
-package day09;
+package day08_nestedIfElse;
 
 public class KendiKendime_03 {
     public static void main(String[] args) {
