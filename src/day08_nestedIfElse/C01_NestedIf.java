@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class C01_NestedIf {
     public static void main(String[] args) {
+        // Kullanicidan bir sifre isteyin
         // Eger ilk harf buyuk harf ise "A" olup olmadigini kontrol edin,
         // Ilk harf A ise Gecerli Sifre degilse GEcersiz sifre yazdirin
         //eger ilk harf kucuk harf ise z olup olmadigini kontrol edin
