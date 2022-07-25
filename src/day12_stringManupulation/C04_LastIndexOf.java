@@ -23,5 +23,18 @@ public class C04_LastIndexOf {
         }else {
             System.out.println("Girilen kelime cumlede 1 den fazla kullanilmistir.");
         }
+        System.out.println();
+        System.out.println("***********************FARKLI BIR METHOD**************************");
+        System.out.println();
+        int ilkIndex=cumle.indexOf(kelime);
+        int sonIndex=cumle.lastIndexOf(kelime);
+
+        if (ilkIndex<0){
+            System.out.println("Soylediginiz kelime Cumle icinde mevcut degildir");
+        } else if (ilkIndex==sonIndex) {
+            System.out.println("Girilen kelime cumlede 1 kere kullailmis");
+        }else {
+            System.out.println("Girilen kelime cumlede 1 den fazla kullanilmistir.");
+        }
     }
 }
