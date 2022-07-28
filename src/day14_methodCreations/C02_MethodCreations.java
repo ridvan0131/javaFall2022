@@ -15,30 +15,30 @@ public class C02_MethodCreations {
         System.out.print("Lutfen bir sayi daha giriniz: ");
         int sayi2=scanner.nextInt();
 
-        kareleri(sayi1,sayi2);
-        kupleri(sayi1,sayi2);
+//        kareleri(sayi1,sayi2); sonradan silinebilir karakterler, oncesinde method olusturmak icin gerekli
+//        kupleri(sayi1,sayi2);
 
         System.out.println("Sayilarin kareleri toplamini istiyorsaniz 2'ye\n" +
                 "Sayilarin kupleri toplamini istiyorsaniz 3'e basiniz");
         int numara=scanner.nextInt();
         if (numara==2){
-            System.out.println(kareleri(sayi1,sayi2));
+            kareleri(sayi1,sayi2);
         }else if (numara==3){
-            System.out.println(kupleri(sayi1,sayi2));
+            kupleri(sayi1,sayi2);
         }else {
             System.out.println("Birader ya 2 ya 3 sec, killik yapma...");
         }
 
         }
 
-    public static int kupleri(int sayi1, int sayi2) {
+    public static void kupleri(int sayi1, int sayi2) {
         int kupleriToplamiSonuc=sayi1*sayi1*sayi1+sayi2*sayi2*sayi2;
-       return(kupleriToplamiSonuc);
+        System.out.println("Kupler toplami= "+kupleriToplamiSonuc);
     }
 
-    private static int kareleri(int sayi1, int sayi2) {
+    public static void kareleri(int sayi1, int sayi2) {
         int kareleriToplamiSonuc=sayi1*sayi1+sayi2*sayi2;
-        return (kareleriToplamiSonuc);
+        System.out.println("Kareler toplami= "+kareleriToplamiSonuc);
     }
 
 }
