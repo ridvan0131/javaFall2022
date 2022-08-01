@@ -21,8 +21,6 @@ public class C01_ForLoop {
             for (int i = sayi2; i >=sayi1; i-=3) {
                 System.out.print(i+" ");
             }
-        }else if (sayi1<0||sayi2<0){
-            System.out.println("eksi rakam girme gardas");
         }
 
     }
